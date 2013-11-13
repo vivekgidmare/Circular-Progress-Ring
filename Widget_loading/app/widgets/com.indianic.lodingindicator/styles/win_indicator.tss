@@ -1,0 +1,31 @@
+"#loadingWindow":{
+	width:Ti.UI.FILL,
+	height:Ti.UI.FILL
+},
+".blackdropview":{
+	width:Ti.UI.FILL,
+	height:Ti.UI.FILL,
+	opacity : 0.75,
+	backgroundColor :"#787878"
+},
+"#indicatorContainer":{
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	backgroundColor :"transparent"
+},
+"#activityIndicator[platform=ios]":{
+	color: 'black',
+	font: {fontFamily:'Helvetica Neue', fontSize:20, fontWeight:'bold'},
+	message: '',
+	style:Ti.UI.iPhone.ActivityIndicatorStyle.DARK,
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE
+},
+"#activityIndicator[platform=android]":{
+	color: 'black',
+	font: {fontFamily:'Helvetica Neue', fontSize:20, fontWeight:'bold'},
+	message: '',
+	style:Ti.UI.ActivityIndicatorStyle.DARK,
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE
+}

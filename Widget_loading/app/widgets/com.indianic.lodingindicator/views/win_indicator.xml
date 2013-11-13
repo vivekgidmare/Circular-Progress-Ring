@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="loadingWindow">
+		<View class="blackdropview">
+			<View id="indicatorContainer">
+				<ActivityIndicator id="activityIndicator"/>
+			</View>
+		</View>
+	</Window>
+</Alloy>

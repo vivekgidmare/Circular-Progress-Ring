@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container">
+		<Label id="label1" onClick="doIndicator">
+			Show Widget Loading indicator
+		</Label>
+		<Label id="label2" onClick="doClick">
+			Show circular indicator
+		</Label>
+			
+		<Require type="widget" src="com.indianic.lodingindicator" id="indicator" />
+	</Window>
+</Alloy>
