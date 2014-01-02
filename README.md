@@ -9,4 +9,4 @@ http://cdns.designmodo.com/wp-content/uploads/2013/07/Dash-iOS-App-by-Patrick-N.
 
 
 
-I have also added widget for acivity indicator 
+I have also added widget for activity indicator. 
